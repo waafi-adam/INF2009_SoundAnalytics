@@ -88,6 +88,46 @@ Developing a computer (ideally embedded) aided audio listening system similar to
     ![image](https://github.com/drfuzzi/INF2009_SoundAnalytics/assets/52023898/d2746cc2-54a3-4eff-beb5-664813a2fcd0) \
     The [mel-frequency cepstrum (MFC)] (https://en.wikipedia.org/wiki/Mel-frequency_cepstrum) is a representation of the short-term power spectrum of a sound, based on a linear cosine transform of a log power spectrum on a nonlinear mel scale of frequency.
 
+
+### 🎙️ **Intro to Sound Processing with Python (in 20 mins)**
+
+#### 🧰 Step 1: Install Required Python Libraries
+To work with sound, install these (on Linux):
+```bash
+sudo apt install portaudio19-dev
+pip3 install pyaudio
+pip3 install sounddevice
+pip3 install scipy matplotlib
+```
+
+> You only need **either** `pyaudio` **or** `sounddevice` to record audio from your mic.
+
+---
+
+#### 🔊 Step 2: Record Audio in Python
+- Use `pyaudio` or `sounddevice` to capture audio.
+- Example/sample codes are available to help you get started.
+
+---
+
+#### 🎵 Step 3: Understand the Sound Using Fourier Transform
+- This math trick helps break audio into its basic frequencies.
+- Helps answer: **What frequencies are inside the sound?**
+
+---
+
+#### 📊 Step 4: Visualize the Sound
+- **Top Graph** = Shows how the sound wave looks over time.
+- **Bottom Graph** = Shows what frequencies are present (spectrum).
+  
+You can **talk into your mic**, try different sounds, and **see how the spectrum changes**!
+
+---
+
+### TL;DR:
+Install libraries → record sound → break it down into waves and frequencies → visualize it → try fun experiments with your voice 🎤✨
+
+Want a sample code to try this yourself?
 **6. Advanced Sound Analytics (20 minutes)**
 - Introduction to machine learning with sound through speech recognition task (through [CMUSphinx](https://cmusphinx.github.io/wiki/) and [Google Speech Recognition](https://github.com/Uberi/speech_recognition/tree/master/third-party/Source%20code%20for%20Google%20API%20Client%20Library%20for%20Python%20and%20its%20dependencies).
 - Installing the [speech_recognition library](https://github.com/Uberi/speech_recognition#readme) through following commands
