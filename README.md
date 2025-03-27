@@ -186,8 +186,10 @@ Want a sample code to try this yourself?
 - Modify the code to identify certain words in the generated (predicted text) which can form the basis for 'wake word' based system control (e.g. Ok Google, Alexa or Siri) 
 ---
 
-     ```python
-     #!/usr/bin/env python3
+
+
+```python
+#!/usr/bin/env python3
 import speech_recognition as sr
 import os
 import time
@@ -325,8 +327,7 @@ for model, data in results_summary.items():
     print(f" - Processing Time: {data['time']:.2f} seconds" if data["time"] else " - Processing Time: N/A")
     print(f" - Wake Word Detected: {'Yes' if data['wake_word'] else 'No'}")
 print("\n============================\n")
-
-     ```
+```
 
 **[Optional] Homework/Extended Activities:**
 1. Build a voice-activated command system.
