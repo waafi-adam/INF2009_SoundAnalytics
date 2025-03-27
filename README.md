@@ -62,6 +62,46 @@ Developing a computer (ideally embedded) aided audio listening system similar to
   - The top plot shows a sample time series of the captured audio and the bottom plot shows the frequency components present in the time series. It is easier to intepret audio by its spectrum.
   - Try speaking, making different sounds and observe how the spectrum changes.
 
+#### EXPLAIN START
+Here’s a super simple explanation of what’s going on in the image:
+
+---
+
+### 🧠 What You’re Looking At
+
+There are **2 graphs**:
+
+---
+
+#### 1. **Top Graph — “AUDIO WAVEFORM”**
+- This shows **how the sound moves over time**.
+- It's like a heartbeat monitor for sound.
+- The up-and-down squiggly line = changes in loudness.
+- Time is on the x-axis → it moves forward as you speak.
+
+---
+
+#### 2. **Bottom Graph — “SPECTRUM”**
+- This shows **which frequencies** are in the sound.
+- Think of it like splitting the sound into bass, mids, and treble.
+- Frequency is on the x-axis (low pitch → high pitch).
+- The tall spikes show **what pitches are present**.
+
+---
+
+### 🗣️ What Can You Do With It?
+- Say something into the mic.
+- Watch how both graphs change.
+- Different sounds = different wave shapes and spikes!
+
+---
+
+### TL;DR:
+Top = “What your sound looks like over time.”  
+Bottom = “What your sound is made of (frequencies).”  
+
+It’s a cool way to “see” your voice! 👀🎤 Want to try a code demo?
+#### EXPLAIN END
     
 **5. Basic Sound Analytics (40 minutes)**
 - Filtering: Removing noise or specific frequencies. The below code illustrates a bandpass filter (only passes audio within a certain frequencies as decided by the user are kept).
@@ -88,7 +128,7 @@ Developing a computer (ideally embedded) aided audio listening system similar to
     ![image](https://github.com/drfuzzi/INF2009_SoundAnalytics/assets/52023898/d2746cc2-54a3-4eff-beb5-664813a2fcd0) \
     The [mel-frequency cepstrum (MFC)] (https://en.wikipedia.org/wiki/Mel-frequency_cepstrum) is a representation of the short-term power spectrum of a sound, based on a linear cosine transform of a log power spectrum on a nonlinear mel scale of frequency.
 
-
+#### EXPLAIN START
 ### 🎙️ **Intro to Sound Processing with Python (in 20 mins)**
 
 #### 🧰 Step 1: Install Required Python Libraries
@@ -124,8 +164,8 @@ You can **talk into your mic**, try different sounds, and **see how the spectrum
 
 ---
 
-### TL;DR:
 Install libraries → record sound → break it down into waves and frequencies → visualize it → try fun experiments with your voice 🎤✨
+#### EXPLAIN END
 
 Want a sample code to try this yourself?
 **6. Advanced Sound Analytics (20 minutes)**
