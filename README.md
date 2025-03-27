@@ -62,7 +62,7 @@ Developing a computer (ideally embedded) aided audio listening system similar to
   - The top plot shows a sample time series of the captured audio and the bottom plot shows the frequency components present in the time series. It is easier to intepret audio by its spectrum.
   - Try speaking, making different sounds and observe how the spectrum changes.
 
-#### EXPLAIN START
+# EXPLAIN START
 Here’s a super simple explanation of what’s going on in the image:
 
 ---
@@ -101,7 +101,7 @@ Top = “What your sound looks like over time.”
 Bottom = “What your sound is made of (frequencies).”  
 
 It’s a cool way to “see” your voice! 👀🎤 Want to try a code demo?
-#### EXPLAIN END
+# EXPLAIN END
     
 **5. Basic Sound Analytics (40 minutes)**
 - Filtering: Removing noise or specific frequencies. The below code illustrates a bandpass filter (only passes audio within a certain frequencies as decided by the user are kept).
@@ -128,7 +128,7 @@ It’s a cool way to “see” your voice! 👀🎤 Want to try a code demo?
     ![image](https://github.com/drfuzzi/INF2009_SoundAnalytics/assets/52023898/d2746cc2-54a3-4eff-beb5-664813a2fcd0) \
     The [mel-frequency cepstrum (MFC)] (https://en.wikipedia.org/wiki/Mel-frequency_cepstrum) is a representation of the short-term power spectrum of a sound, based on a linear cosine transform of a log power spectrum on a nonlinear mel scale of frequency.
 
-#### EXPLAIN START
+# EXPLAIN START
 ### 🎙️ **Intro to Sound Processing with Python (in 20 mins)**
 
 #### 🧰 Step 1: Install Required Python Libraries
@@ -165,7 +165,7 @@ You can **talk into your mic**, try different sounds, and **see how the spectrum
 ---
 
 Install libraries → record sound → break it down into waves and frequencies → visualize it → try fun experiments with your voice 🎤✨
-#### EXPLAIN END
+# EXPLAIN END
 
 Want a sample code to try this yourself?
 **6. Advanced Sound Analytics (20 minutes)**
